@@ -1,0 +1,22 @@
+{
+  "name": "wpmighty/scrollbarcustomizer",
+  "type": "library",
+  "version": "1.0",
+  "authors": [
+    {
+      "name": "wpMighty",
+      "email": "support@wpmighty.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "classmap": [
+      "src/"
+    ],
+    "psr-4": {"Scrollbarcustomizer\\": "src/"}
+  },
+  "require": {
+    "mobiledetect/mobiledetectlib": "2.*",
+    "freemius/wordpress-sdk": "2.*"
+  }
+}
